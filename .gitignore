@@ -1,0 +1,56 @@
+# Runtime secrets – never commit these
+.env
+*.env
+!.env.example
+
+# Python cache / build artefacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Logs
+*.log
+logs/
+envlogger*.txt
+
+# Temporary dump output files
+dumped_output.lua
+*.lua.txt
+dumps/
+temp/
+tmp/
+
+# Railway
+.railway/
+
+# Docker
+docker-compose.override.yml
